@@ -1,0 +1,56 @@
+body
+{
+    background-color:gray
+}
+.container
+{
+    width: 350px;
+    height: auto;
+    text-align:center;
+    background: white;
+    height: 600px;
+    overflow-y:auto;
+    border: 10px solid aqua;
+    border-radius: 10px;
+    margin-left: 500px;
+}
+.container .h1
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.container ul li
+{
+    list-style: none;
+    border: 2px solid blue;
+    width: 80%;
+    opacity: 0;
+    translate: opacity 0.5s ease-in-out;
+}
+.container  .mycheck
+{
+    opacity: 1;
+    border-radius: 10px;
+}
+.visual{
+    opacity: 1 !important;
+    border-radius: 10px;
+}
+.container #add
+{
+    margin-top:10px;
+    width: 150px;
+    background-color: blue;
+    color: black;
+    border: 2px solid gray;
+}
+#remove
+{
+    argin-top:10px;
+    width: 150px;
+    margin-top: 5%;
+    background-color:red;
+    color: black;
+    border: 2px solid gray;
+}
